@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CavionTestSuit]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testing11(failed)">
+    <classes>
+      <class name="test.Inbox">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="inboxTest"/>
+        </methods>
+      </class> <!-- test.Inbox -->
+      <class name="test.Login">
+        <methods>
+          <include name="loginTest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.Login -->
+    </classes>
+  </test> <!-- Testing11(failed) -->
+</suite> <!-- Failed suite [CavionTestSuit] -->
